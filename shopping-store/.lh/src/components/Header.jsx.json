@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/components/Header.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1661488817201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661488822931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\n \n function Header() {\n   return (\n-    <div>Header</div>\n+    <div>I am Header</div>\n   )\n }\n \n export default Header\n"
+                },
+                {
+                    "date": 1661488895894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import React from 'react'\n \n+// \n function Header() {\n   return (\n     <div>I am Header</div>\n   )\n"
+                },
+                {
+                    "date": 1661488904159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\n \n-// \n+// for styling use classnames \n function Header() {\n   return (\n     <div>I am Header</div>\n   )\n"
+                },
+                {
+                    "date": 1661488912337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\n \n-// for styling use classnames \n+// for styling use classnames or You can use css in js or you can use mou\n function Header() {\n   return (\n     <div>I am Header</div>\n   )\n"
+                },
+                {
+                    "date": 1661488919346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\n \n-// for styling use classnames or You can use css in js or you can use mou\n+// for styling use classnames or You can use css in js or you can use modules.css and import \n function Header() {\n   return (\n     <div>I am Header</div>\n   )\n"
+                },
+                {
+                    "date": 1661547611197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import React from 'react'\n \n-// for styling use classnames or You can use css in js or you can use modules.css and import \n+\n+// for styling use classnames or You can use css in js or you can use modules.css and import\n function Header() {\n   return (\n     <div>I am Header</div>\n   )\n"
+                },
+                {
+                    "date": 1661547618566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from 'react'\n \n-\n+const style = {\n+  color: ''\n+}\n // for styling use classnames or You can use css in js or you can use modules.css and import\n function Header() {\n   return (\n     <div>I am Header</div>\n"
+                },
+                {
+                    "date": 1661547634576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react'\n \n const style = {\n-  color: ''\n+  color: 'fefae0'\n }\n // for styling use classnames or You can use css in js or you can use modules.css and import\n function Header() {\n   return (\n"
+                },
+                {
+                    "date": 1661547645736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import React from 'react'\n \n const style = {\n-  color: 'fefae0'\n+  color: 'fefae0',\n+  top: \n }\n // for styling use classnames or You can use css in js or you can use modules.css and import\n function Header() {\n   return (\n"
+                },
+                {
+                    "date": 1661547656618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\n \n const style = {\n   color: 'fefae0',\n-  top: \n+  top: ''\n }\n // for styling use classnames or You can use css in js or you can use modules.css and import\n function Header() {\n   return (\n"
+                },
+                {
+                    "date": 1661547662926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import React from 'react'\n \n const style = {\n   color: 'fefae0',\n-  top: ''\n+  top: '100px'\n+  \n }\n // for styling use classnames or You can use css in js or you can use modules.css and import\n function Header() {\n   return (\n"
+                },
+                {
+                    "date": 1661547669388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const style = {\n   color: 'fefae0',\n   top: '100px'\n-  width: '100'\n+  width: '100%'\n }\n // for styling use classnames or You can use css in js or you can use modules.css and import\n function Header() {\n   return (\n"
+                }
+            ],
+            "date": 1661488817201,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nfunction Header() {\n  return (\n    <div>Header</div>\n  )\n}\n\nexport default Header\n"
+        }
+    ]
+}

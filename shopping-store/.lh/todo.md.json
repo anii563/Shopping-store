@@ -1,0 +1,22 @@
+{
+    "sourceFile": "todo.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1661490927160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661490933307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n \t- Add to cart or Cart component\n \n - Product page -> Item click -> Product detail page (another api call)\n - Footer\n-    - copy right  - static hard coded data / api call  \n+    - copy right  - static hard coded data / api call\n - Conver all the app to Typescript\n —————————\n \n Phase 3\n@@ -31,8 +31,4 @@\n   - Node js to dump the fake data in to Mongo DB and host the backend end points\n —————————\n \n Phase 4\n-\n-\n-\n-\n"
+                }
+            ],
+            "date": 1661490927160,
+            "name": "Commit-0",
+            "content": "e commerce\n————\n\nPhase 1\n\n - UI basic layout\n\t - header component\n\t- products component\n   \t- footer component\n\n- Fake api use\n———————————\n\n\nPhase 2\n\n - Header\n\t- Search component\n\t- Add to cart or Cart component\n\n- Product page -> Item click -> Product detail page (another api call)\n- Footer\n    - copy right  - static hard coded data / api call  \n- Conver all the app to Typescript\n—————————\n\nPhase 3\n\n  - Cache the data in browser or some online mongo DB\n  - Use Context api for data  or Redux or combination of both for state management system\n  - Node js to dump the fake data in to Mongo DB and host the backend end points\n—————————\n\nPhase 4\n\n\n\n\n"
+        }
+    ]
+}

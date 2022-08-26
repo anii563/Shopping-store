@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1661488698242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661488707298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,4 @@\n     <App />\n   </React.StrictMode>\n );\n \n-// If you want to start measuring performance in your app, pass a function\n-// to log results (for example: reportWebVitals(console.log))\n-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\n-reportWebVitals();\n"
+                },
+                {
+                    "date": 1661489647163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import App from './App';\n \n const root = ReactDOM.createRoot(document.getElementById('root'));\n root.render(\n-  <React.StrictMode>\n+  <React>\n     <App />\n-  </React.StrictMode>\n+  </React>\n );\n \n"
+                },
+                {
+                    "date": 1661489659160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import App from './App';\n \n const root = ReactDOM.createRoot(document.getElementById('root'));\n root.render(\n-  <React>\n+  <React.StrictMode>\n     <App />\n-  </React>\n+  </React.StrictMode>\n );\n \n"
+                }
+            ],
+            "date": 1661488698242,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport ReactDOM from 'react-dom/client';\nimport './index.css';\nimport App from './App';\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(\n  <React.StrictMode>\n    <App />\n  </React.StrictMode>\n);\n\n// If you want to start measuring performance in your app, pass a function\n// to log results (for example: reportWebVitals(console.log))\n// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\nreportWebVitals();\n"
+        }
+    ]
+}

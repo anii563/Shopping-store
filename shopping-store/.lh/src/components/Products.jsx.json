@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/Products.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1661488828127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661488925153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import React from 'react'\n \n function Products() {\n+  \n   return (\n-    <div>Products</div>\n+    <div>I am Products</div>\n   )\n }\n \n export default Products\n"
+                },
+                {
+                    "date": 1661488937860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react'\n \n function Products() {\n-  // use\n+  // useE\n   return (\n     <div>I am Products</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1661489234129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function Products() {\n   // use useEffect with fetch api to access the end points of faker data\n   const getProducts = async ()=> {\n-    awifetch('https://fakestoreapi.com/products')\n+    awfetch('https://fakestoreapi.com/products')\n \n   }\n   useEffect(()=> {\n   },[])\n"
+                }
+            ],
+            "date": 1661488828127,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nfunction Products() {\n  return (\n    <div>Products</div>\n  )\n}\n\nexport default Products\n"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "sourceFile": "src/components/Footer.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1661488793058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661488798256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-r\n+import React from 'react'\n+\n+function I() {\n+  return (\n+    <div>I</div>\n+  )\n+}\n+\n+export default I\n"
+                },
+                {
+                    "date": 1661488804699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\n \n-function I() {\n+function Footer() {\n   return (\n-    <div>I</div>\n+    <div>I am Footrer</div>\n   )\n }\n \n-export default I\n+export default Footer\n"
+                },
+                {
+                    "date": 1661488811772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\n \n function Footer() {\n   return (\n-    <div>I am Footrer</div>\n+    <div>I am Footer</div>\n   )\n }\n \n export default Footer\n"
+                },
+                {
+                    "date": 1661547899039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n import React from 'react'\n \n+const style = {\n+  \n+}\n function Footer() {\n   return (\n     <div>I am Footer</div>\n   )\n"
+                },
+                {
+                    "date": 1661547907329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react'\n \n const style = {\n-  \n+  bottom: \n }\n function Footer() {\n   return (\n     <div>I am Footer</div>\n"
+                },
+                {
+                    "date": 1661547913027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import React from 'react'\n \n const style = {\n-  bottom: \n+  bottom: '0px',\n+  \n }\n function Footer() {\n   return (\n     <div>I am Footer</div>\n"
+                },
+                {
+                    "date": 1661547919469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\n \n const style = {\n   bottom: '0px',\n-  height: ''\n+  height: '1'\n }\n function Footer() {\n   return (\n     <div>I am Footer</div>\n"
+                },
+                {
+                    "date": 1661547925504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const style = {\n   bottom: '0px',\n   height: '100px',\n-  width: '100'\n+  width: '100%'\n }\n function Footer() {\n   return (\n     <div>I am Footer</div>\n"
+                }
+            ],
+            "date": 1661488793058,
+            "name": "Commit-0",
+            "content": "r\n"
+        }
+    ]
+}
