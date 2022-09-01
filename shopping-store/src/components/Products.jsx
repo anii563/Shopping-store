@@ -9,6 +9,7 @@ const style = {
 const productStyle = {
     width: '300px',
     height: '200px',
+    margin: '10px',
     border: '1px solid black'
 }
 function Products() {

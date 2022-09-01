@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/components/test/Forcallbacks.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1661645554109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1661645559406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import React from 'react'\n \n function Forcallbacks() {\n+  \n   return (\n     <div>Forcallbacks</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1661645565759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react'\n \n function Forcallbacks() {\n-  \n+  const \n   return (\n     <div>Forcallbacks</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1661645571834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react'\n \n function Forcallbacks() {\n-  const \n+  const callCallbacks = ()\n   return (\n     <div>Forcallbacks</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1661645579521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import React from 'react'\n \n function Forcallbacks() {\n-  const callCallbacks = ()\n+  const callCallbacks = ()=> {\n+    ret\n+  }\n   return (\n     <div>Forcallbacks</div>\n   )\n }\n"
+                },
+                {
+                    "date": 1661645587060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from 'react'\n \n function Forcallbacks() {\n   const callCallbacks = ()=> {\n-    ret\n+    return ()\n   }\n   return (\n     <div>Forcallbacks</div>\n   )\n"
+                },
+                {
+                    "date": 1661645593802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function Forcallbacks() {\n   const callCallbacks = ()=> {\n     return ()=> {\n-      c\n+      \n     }\n   }\n   return (\n     <div>Forcallbacks</div>\n"
+                }
+            ],
+            "date": 1661645554108,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nfunction Forcallbacks() {\n  return (\n    <div>Forcallbacks</div>\n  )\n}\n\nexport default Forcallbacks\n"
+        }
+    ]
+}
